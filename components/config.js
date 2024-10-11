@@ -1,0 +1,1 @@
+export const SERVER_IP = 'https://truche-application.uc.r.appspot.com/api';

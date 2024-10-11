@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "TRUCHE",
+    "slug": "truche",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/truche-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.outricslab.trucheios"
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.outricslab.trucheandroid"
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e490d370-4c3a-4945-a0f2-0237f45eb938"
+      }
+    }
+  }
+}
